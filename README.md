@@ -1,22 +1,27 @@
-Esse código HTML, CSS e JavaScript cria um relógio digital simples que exibe a hora atual e a data. Aqui está uma descrição resumida do que cada parte faz:
+# Relógio Digital
 
-HTML:
+Este projeto é um relógio digital simples que exibe a hora atual e a data em uma página web. Ele foi desenvolvido utilizando HTML, CSS e JavaScript.
 
-Define a estrutura básica do documento, incluindo a cabeça (<head>) e o corpo (<body>).
-Usa elementos <meta> para definir o conjunto de caracteres e a escala de exibição.
-Define o título da página e o favicon.
-Importa um arquivo CSS externo (meucss.css) e um arquivo JavaScript externo (main.js).
-No corpo, há uma <div> com o ID "relogio" que contém três parágrafos (<p>) com as classes "data", "tempo" e "texto" para exibir a data, a hora e um texto indicativo, respectivamente.
-CSS:
+## Funcionalidades
 
-Define o estilo geral do corpo do documento, centralizando o conteúdo na tela, definindo a cor de fundo e a cor do texto, além da fonte.
-Estiliza a <div> com ID "relogio", centralizando o conteúdo, aplicando sombra, borda arredondada e sombreamento ao texto.
-JavaScript:
+- Exibe a hora atual em formato HH:MM:SS
+- Exibe a data atual (dia da semana, dia do mês, mês, ano)
+- Atualização em tempo real
 
-Define uma função attDoTempo() que é responsável por obter a hora atual, os minutos, os segundos, o dia da semana, o dia do mês, o mês e o ano.
-Usa um array diasSemana para armazenar os nomes dos dias da semana.
-Utiliza a função addZero() para garantir que os valores de hora, minutos, segundos, dia e mês tenham sempre dois dígitos.
-Monta as strings formatadas para exibir a hora correta e a data.
-Atualiza os elementos HTML com as classes "tempo" e "data" com as informações de hora e data, respectivamente.
-Usa setInterval() para chamar a função attDoTempo() a cada segundo, garantindo que o relógio seja atualizado em tempo real.
-No geral, esse código cria um relógio digital funcional que exibe a hora e a data atualizadas em uma página web.
+## Tecnologias utilizadas
+
+- **HTML**: Estrutura básica da página web
+- **CSS**: Estilização dos elementos HTML
+- **JavaScript**: Lógica para atualização do relógio e data em tempo real
+
+## Estrutura do projeto
+
+- `index.html`: Arquivo HTML principal contendo a estrutura do relógio
+- `css/meucss.css`: Arquivo CSS para estilização
+- `javascript/main.js`: Arquivo JavaScript contendo a lógica de atualização do relógio
+
+## Como executar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/GabrielSilvaG/relogio-digital.git
